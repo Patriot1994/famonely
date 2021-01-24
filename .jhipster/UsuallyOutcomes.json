@@ -1,0 +1,37 @@
+{
+  "name": "UsuallyOutcomes",
+  "fields": [
+    {
+      "fieldName": "payDay",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "money",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "isAlreadyPaid",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "outcomeType",
+      "otherEntityRelationshipName": "usuallyOutcomes",
+      "relationshipName": "outcomeType",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210101153305",
+  "entityTableName": "usually_outcomes",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

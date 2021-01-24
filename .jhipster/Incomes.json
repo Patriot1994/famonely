@@ -1,0 +1,40 @@
+{
+  "name": "Incomes",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "spentMoney",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "incomeType",
+      "otherEntityRelationshipName": "incomes",
+      "relationshipName": "incomeType",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "usersFamonely",
+      "otherEntityRelationshipName": "incomes",
+      "relationshipName": "userSpendMoney",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210101153805",
+  "entityTableName": "incomes",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

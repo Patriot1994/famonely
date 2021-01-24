@@ -1,0 +1,11 @@
+id;date;spent_money;is_monthly_out_come;is_planned_out_come
+1;2021-01-01;55367;false;true
+2;2021-01-01;83421;true;true
+3;2021-01-01;30603;false;false
+4;2021-01-01;10337;true;true
+5;2021-01-01;5752;false;true
+6;2020-12-31;79845;true;true
+7;2021-01-01;54218;false;true
+8;2020-12-31;41338;true;true
+9;2021-01-01;65357;true;true
+10;2020-12-31;11290;true;false

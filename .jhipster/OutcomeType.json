@@ -1,0 +1,40 @@
+{
+  "name": "OutcomeType",
+  "fields": [
+    {
+      "fieldName": "nameOfOutcome",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "outcomes",
+      "otherEntityRelationshipName": "outcomeType",
+      "relationshipName": "outcomes"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "plannedOutcomes",
+      "otherEntityRelationshipName": "outcomeType",
+      "relationshipName": "plannedOutcomes"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "usuallyOutcomes",
+      "otherEntityRelationshipName": "outcomeType",
+      "relationshipName": "usuallyOutcomes"
+    }
+  ],
+  "changelogDate": "20210101153505",
+  "entityTableName": "outcome_type",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

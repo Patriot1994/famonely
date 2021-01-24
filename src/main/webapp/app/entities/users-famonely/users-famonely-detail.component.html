@@ -1,0 +1,38 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="usersFamonely">
+            <h2><span jhiTranslate="famonelyApp.usersFamonely.detail.title">Users Famonely</span> {{ usersFamonely.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="famonelyApp.usersFamonely.name">Name</span></dt>
+                <dd>
+                    <span>{{ usersFamonely.name }}</span>
+                </dd>
+                <dt><span jhiTranslate="famonelyApp.usersFamonely.surname">Surname</span></dt>
+                <dd>
+                    <span>{{ usersFamonely.surname }}</span>
+                </dd>
+                <dt><span jhiTranslate="famonelyApp.usersFamonely.sweetShortname">Sweet Shortname</span></dt>
+                <dd>
+                    <span>{{ usersFamonely.sweetShortname }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/users-famonely', usersFamonely.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

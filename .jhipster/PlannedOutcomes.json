@@ -1,0 +1,41 @@
+{
+  "name": "PlannedOutcomes",
+  "fields": [
+    {
+      "fieldName": "plannedDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "plannedMoney",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "moneyToGoal",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "isAlreadyPaid",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "outcomeType",
+      "otherEntityRelationshipName": "plannedOutcomes",
+      "relationshipName": "outcomeType",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210101153405",
+  "entityTableName": "planned_outcomes",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

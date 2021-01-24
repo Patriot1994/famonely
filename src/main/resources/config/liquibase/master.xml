@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="now" value="now()" dbms="mysql, mariadb"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
+    <property name="clobType" value="clob" dbms="h2"/>
+    <property name="clobType" value="clob" dbms="mysql, oracle, mssql, mariadb, postgresql"/>
+    <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153205_added_entity_UsersFamonely.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153305_added_entity_UsuallyOutcomes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153405_added_entity_PlannedOutcomes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153505_added_entity_OutcomeType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153605_added_entity_Outcomes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153705_added_entity_IncomeType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153805_added_entity_Incomes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153905_added_entity_StateOfMoney.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20210101153305_added_entity_constraints_UsuallyOutcomes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153405_added_entity_constraints_PlannedOutcomes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153605_added_entity_constraints_Outcomes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210101153805_added_entity_constraints_Incomes.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+</databaseChangeLog>

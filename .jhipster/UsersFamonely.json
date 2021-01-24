@@ -1,0 +1,42 @@
+{
+  "name": "UsersFamonely",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "surname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sweetShortname",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "outcomes",
+      "otherEntityRelationshipName": "userSpendMoney",
+      "relationshipName": "outcomes"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "incomes",
+      "otherEntityRelationshipName": "userSpendMoney",
+      "relationshipName": "incomes"
+    }
+  ],
+  "changelogDate": "20210101153205",
+  "entityTableName": "users_famonely",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

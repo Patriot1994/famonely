@@ -1,0 +1,44 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="usuallyOutcomes">
+            <h2><span jhiTranslate="famonelyApp.usuallyOutcomes.detail.title">Usually Outcomes</span> {{ usuallyOutcomes.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="famonelyApp.usuallyOutcomes.payDay">Pay Day</span></dt>
+                <dd>
+                    <span>{{ usuallyOutcomes.payDay }}</span>
+                </dd>
+                <dt><span jhiTranslate="famonelyApp.usuallyOutcomes.money">Money</span></dt>
+                <dd>
+                    <span>{{ usuallyOutcomes.money }}</span>
+                </dd>
+                <dt><span jhiTranslate="famonelyApp.usuallyOutcomes.isAlreadyPaid">Is Already Paid</span></dt>
+                <dd>
+                    <span>{{ usuallyOutcomes.isAlreadyPaid }}</span>
+                </dd>
+                <dt><span jhiTranslate="famonelyApp.usuallyOutcomes.outcomeType">Outcome Type</span></dt>
+                <dd>
+                    <div *ngIf="usuallyOutcomes.outcomeType">
+                        <a [routerLink]="['/outcome-type', usuallyOutcomes.outcomeType?.id, 'view']">{{ usuallyOutcomes.outcomeType?.id }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/usually-outcomes', usuallyOutcomes.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

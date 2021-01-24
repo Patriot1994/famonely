@@ -1,0 +1,53 @@
+entity UsersFamonely{
+	name String
+    surname String 
+    sweetShortname String
+}
+
+entity UsuallyOutcomes{
+	payDay LocalDate
+    money BigDecimal
+    isAlreadyPaid Boolean
+}
+
+entity PlannedOutcomes{
+	plannedDate LocalDate
+    plannedMoney BigDecimal
+    moneyToGoal BigDecimal
+    isAlreadyPaid Boolean
+}
+entity OutcomeType{
+	nameOfOutcome String
+}
+entity Outcomes{
+	date LocalDate
+    spentMoney BigDecimal 
+    isMonthlyOutCome Boolean
+    isPlannedOutCome Boolean // planned mean -  
+}
+
+entity IncomeType{
+	nameOfOutcome String
+}
+entity Incomes{
+	date LocalDate
+    spentMoney BigDecimal 
+}
+
+entity StateOfMoney{
+	date LocalDate
+    money BigDecimal
+}
+relationship OneToMany{
+	OutcomeType to Outcomes{outcomeType},
+    UsersFamonely to Outcomes{userSpendMoney},
+    OutcomeType to PlannedOutcomes{outcomeType},
+    OutcomeType to UsuallyOutcomes{outcomeType},
+}
+
+relationship OneToMany{
+	IncomeType to Incomes{incomeType},
+    UsersFamonely to Incomes{userSpendMoney},
+}
+
+

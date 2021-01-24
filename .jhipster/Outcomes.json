@@ -1,0 +1,48 @@
+{
+  "name": "Outcomes",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "spentMoney",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "isMonthlyOutCome",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isPlannedOutCome",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "outcomeType",
+      "otherEntityRelationshipName": "outcomes",
+      "relationshipName": "outcomeType",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "usersFamonely",
+      "otherEntityRelationshipName": "outcomes",
+      "relationshipName": "userSpendMoney",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210101153605",
+  "entityTableName": "outcomes",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

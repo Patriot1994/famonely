@@ -1,0 +1,28 @@
+{
+  "name": "IncomeType",
+  "fields": [
+    {
+      "fieldName": "nameOfOutcome",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "incomes",
+      "otherEntityRelationshipName": "incomeType",
+      "relationshipName": "incomes"
+    }
+  ],
+  "changelogDate": "20210101153705",
+  "entityTableName": "income_type",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
