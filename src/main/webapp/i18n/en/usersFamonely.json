@@ -1,0 +1,26 @@
+{
+  "famonelyApp": {
+    "usersFamonely": {
+      "home": {
+        "title": "Users Famonelies",
+        "createLabel": "Create a new Users Famonely",
+        "createOrEditLabel": "Create or edit a Users Famonely",
+        "notFound": "No Users Famonelies found"
+      },
+      "created": "A new Users Famonely is created with identifier {{ param }}",
+      "updated": "A Users Famonely is updated with identifier {{ param }}",
+      "deleted": "A Users Famonely is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Users Famonely {{ id }}?"
+      },
+      "detail": {
+        "title": "Users Famonely"
+      },
+      "name": "Name",
+      "surname": "Surname",
+      "sweetShortname": "Sweet Shortname",
+      "outcomes": "Outcomes",
+      "incomes": "Incomes"
+    }
+  }
+}

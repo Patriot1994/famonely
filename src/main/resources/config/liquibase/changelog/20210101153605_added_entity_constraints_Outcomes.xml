@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Outcomes.
+    -->
+    <changeSet id="20210101153605-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="outcome_type_id"
+                                 baseTableName="outcomes"
+                                 constraintName="fk_outcomes_outcome_type_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="outcome_type"/>
+
+        <addForeignKeyConstraint baseColumnNames="user_spend_money_id"
+                                 baseTableName="outcomes"
+                                 constraintName="fk_outcomes_user_spend_money_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="users_famonely"/>
+
+    </changeSet>
+</databaseChangeLog>

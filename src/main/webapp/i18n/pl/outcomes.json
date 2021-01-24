@@ -1,0 +1,27 @@
+{
+  "famonelyApp": {
+    "outcomes": {
+      "home": {
+        "title": "Outcomes",
+        "createLabel": "Dodaj Outcomes",
+        "createOrEditLabel": "Dodaj lub edytuj: Outcomes",
+        "notFound": "No Outcomes found"
+      },
+      "created": "Utworzono nowy obiekt typu Outcomes z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Outcomes z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Outcomes z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Outcomes {{ id }}?"
+      },
+      "detail": {
+        "title": "Outcomes"
+      },
+      "date": "Date",
+      "spentMoney": "Spent Money",
+      "isMonthlyOutCome": "Is Monthly Out Come",
+      "isPlannedOutCome": "Is Planned Out Come",
+      "outcomeType": "Outcome Type",
+      "userSpendMoney": "User Spend Money"
+    }
+  }
+}

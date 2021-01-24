@@ -1,0 +1,25 @@
+{
+  "famonelyApp": {
+    "incomes": {
+      "home": {
+        "title": "Incomes",
+        "createLabel": "Dodaj Incomes",
+        "createOrEditLabel": "Dodaj lub edytuj: Incomes",
+        "notFound": "No Incomes found"
+      },
+      "created": "Utworzono nowy obiekt typu Incomes z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Incomes z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Incomes z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Incomes {{ id }}?"
+      },
+      "detail": {
+        "title": "Incomes"
+      },
+      "date": "Date",
+      "spentMoney": "Spent Money",
+      "incomeType": "Income Type",
+      "userSpendMoney": "User Spend Money"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "famonelyApp": {
+    "plannedOutcomes": {
+      "home": {
+        "title": "Planned Outcomes",
+        "createLabel": "Dodaj Planned Outcomes",
+        "createOrEditLabel": "Dodaj lub edytuj: Planned Outcomes",
+        "notFound": "No Planned Outcomes found"
+      },
+      "created": "Utworzono nowy obiekt typu Planned Outcomes z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Planned Outcomes z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Planned Outcomes z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Planned Outcomes {{ id }}?"
+      },
+      "detail": {
+        "title": "Planned Outcomes"
+      },
+      "plannedDate": "Planned Date",
+      "plannedMoney": "Planned Money",
+      "moneyToGoal": "Money To Goal",
+      "isAlreadyPaid": "Is Already Paid",
+      "outcomeType": "Outcome Type"
+    }
+  }
+}

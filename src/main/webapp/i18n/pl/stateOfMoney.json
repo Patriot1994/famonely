@@ -1,0 +1,23 @@
+{
+  "famonelyApp": {
+    "stateOfMoney": {
+      "home": {
+        "title": "State Of Money",
+        "createLabel": "Dodaj State Of Money",
+        "createOrEditLabel": "Dodaj lub edytuj: State Of Money",
+        "notFound": "No State Of Monies found"
+      },
+      "created": "Utworzono nowy obiekt typu State Of Money z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu State Of Money z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu State Of Money z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć State Of Money {{ id }}?"
+      },
+      "detail": {
+        "title": "State Of Money"
+      },
+      "date": "Date",
+      "money": "Money"
+    }
+  }
+}

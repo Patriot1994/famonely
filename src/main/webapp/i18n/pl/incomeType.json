@@ -1,0 +1,23 @@
+{
+  "famonelyApp": {
+    "incomeType": {
+      "home": {
+        "title": "Income Type",
+        "createLabel": "Dodaj Income Type",
+        "createOrEditLabel": "Dodaj lub edytuj: Income Type",
+        "notFound": "No Income Types found"
+      },
+      "created": "Utworzono nowy obiekt typu Income Type z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Income Type z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Income Type z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Income Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Income Type"
+      },
+      "nameOfOutcome": "Name Of Outcome",
+      "incomes": "Incomes"
+    }
+  }
+}

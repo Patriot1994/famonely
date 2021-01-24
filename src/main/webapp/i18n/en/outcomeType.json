@@ -1,0 +1,25 @@
+{
+  "famonelyApp": {
+    "outcomeType": {
+      "home": {
+        "title": "Outcome Types",
+        "createLabel": "Create a new Outcome Type",
+        "createOrEditLabel": "Create or edit a Outcome Type",
+        "notFound": "No Outcome Types found"
+      },
+      "created": "A new Outcome Type is created with identifier {{ param }}",
+      "updated": "A Outcome Type is updated with identifier {{ param }}",
+      "deleted": "A Outcome Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Outcome Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Outcome Type"
+      },
+      "nameOfOutcome": "Name Of Outcome",
+      "outcomes": "Outcomes",
+      "plannedOutcomes": "Planned Outcomes",
+      "usuallyOutcomes": "Usually Outcomes"
+    }
+  }
+}

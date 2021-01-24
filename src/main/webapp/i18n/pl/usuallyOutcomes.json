@@ -1,0 +1,25 @@
+{
+  "famonelyApp": {
+    "usuallyOutcomes": {
+      "home": {
+        "title": "Usually Outcomes",
+        "createLabel": "Dodaj Usually Outcomes",
+        "createOrEditLabel": "Dodaj lub edytuj: Usually Outcomes",
+        "notFound": "No Usually Outcomes found"
+      },
+      "created": "Utworzono nowy obiekt typu Usually Outcomes z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Usually Outcomes z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Usually Outcomes z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Usually Outcomes {{ id }}?"
+      },
+      "detail": {
+        "title": "Usually Outcomes"
+      },
+      "payDay": "Pay Day",
+      "money": "Money",
+      "isAlreadyPaid": "Is Already Paid",
+      "outcomeType": "Outcome Type"
+    }
+  }
+}

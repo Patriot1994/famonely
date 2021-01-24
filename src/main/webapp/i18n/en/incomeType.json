@@ -1,0 +1,23 @@
+{
+  "famonelyApp": {
+    "incomeType": {
+      "home": {
+        "title": "Income Types",
+        "createLabel": "Create a new Income Type",
+        "createOrEditLabel": "Create or edit a Income Type",
+        "notFound": "No Income Types found"
+      },
+      "created": "A new Income Type is created with identifier {{ param }}",
+      "updated": "A Income Type is updated with identifier {{ param }}",
+      "deleted": "A Income Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Income Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Income Type"
+      },
+      "nameOfOutcome": "Name Of Outcome",
+      "incomes": "Incomes"
+    }
+  }
+}

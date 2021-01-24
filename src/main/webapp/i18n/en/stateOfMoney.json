@@ -1,0 +1,23 @@
+{
+  "famonelyApp": {
+    "stateOfMoney": {
+      "home": {
+        "title": "State Of Monies",
+        "createLabel": "Create a new State Of Money",
+        "createOrEditLabel": "Create or edit a State Of Money",
+        "notFound": "No State Of Monies found"
+      },
+      "created": "A new State Of Money is created with identifier {{ param }}",
+      "updated": "A State Of Money is updated with identifier {{ param }}",
+      "deleted": "A State Of Money is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete State Of Money {{ id }}?"
+      },
+      "detail": {
+        "title": "State Of Money"
+      },
+      "date": "Date",
+      "money": "Money"
+    }
+  }
+}
